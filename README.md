@@ -1,7 +1,7 @@
 wakhinter
 =========
 
-Wakanda server side script to jshint all the js files in a project.
+Wakanda server side CommomJS module to jshint all the js files in a project.
 
 Installation
 =========
@@ -28,9 +28,9 @@ jshint Tweaks
 
 You can modify the included files to modify how jshint will behave:
 
-* **jshintrc.json** this is the main configuration file used by jshint where you can setup options for which warning to show and globals 
+* **jshintrc.json** this is the main configuration file used by jshint where you can setup options for which warnings to show and globals 
 * **jshintigore.json** this is a file I kind of made up where you can specify files to skip or lines of code to skip
-* I also added an option to comment a line of code with ```javascript//jshint_ignore``` and any errors on that line will be skipped
+* I also added an option to comment a line of code with **//jshint_ignore** and any errors on that line will be skipped
 
 License (MIT License)
 =========
