@@ -6,7 +6,7 @@ Wakanda server side script to jshint all the js files in a project.
 Installation
 =========
 
-You should put the waklinter folder in your Project/Modules/ folder.
+You should put the wakhinter folder in your Project/Modules/ folder.
 
 You will also need a copy of underscore.js in your Project/Modules/ folder.
 
@@ -21,7 +21,7 @@ require("wakhinter").run();
 
 wakhinter will walk through all the .js files in your project and run them through jshint.  The first time it finds a .js file with any errors it will display the errors in the Studio  output panel.  If no files are found with an error it will output "Done!" to the output panel.
 
-You can optionally pass a Wakanda Folder object to  waklinter.run() and it will recursively find and jshint any .js files within that folder and any of its subfolders.
+You can optionally pass a Wakanda Folder object to run() and it will recursively find and jshint any .js files within that folder and any of its subfolders.
 
 jshint Tweaks
 =========
@@ -30,7 +30,7 @@ You can modify the included files to modify how jshint will behave:
 
 * **jshintrc.json** this is the main configuration file used by jshint where you can setup options for which warning to show and globals 
 * **jshintigore.json** this is a file I kind of made up where you can specify files to skip or lines of code to skip
-* I also added an option to comment a line of code with //jshint_ignore and any errors on that line will be skipped
+* I also added an option to comment a line of code with ```javascript//jshint_ignore``` and any errors on that line will be skipped
 
 License (MIT License)
 =========
