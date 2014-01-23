@@ -1,0 +1,1 @@
+{		//skip any file whose path contains any of these search terms	"filePathContains"		: ["jshint.js","underscore.js","json.minify.js"],		//skip errors for these lines of code	"linesOfCode"	: [		"})();// @endlock", 		"(function Component (id) {// @lock",		"function constructor (id) {"		]}
